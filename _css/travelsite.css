@@ -1,0 +1,173 @@
+* {
+		margin: 0;
+		padding: 0 px;
+		
+	}
+	
+h1 {
+		opacity: 0.9;
+		color: rgb(222, 69, 239);
+		margin-top: 10%;
+		font-size: 200px;
+		text-align: center;
+		font-style: italic;
+		background-color: transparent;
+		position: absolute;
+		 -webkit-text-stroke: 1px black;
+   color: rgb(222, 69, 239);
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       font-family: Impact, Charcoal, sans-serif;
+
+		}
+
+.bkg_header {
+	background-image: url("https://images.independenttraveler.com/homepage/colorfulsingapore.jpg");
+	width: 100%;
+	height: 500px;
+	padding top:0px;
+}
+
+.body {
+	width: 100%;
+	color: rgb(81, 85, 102);
+	font-size: 50px;
+	text-align: center;
+	background-color: rgb(252, 239, 60);
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.footer {
+	color: rgb(165, 232, 223);
+	text-align: center;
+	background-color: rgb(81, 85, 102);
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+h6 {
+	color: white; 
+	opacity: 0.9;
+   font: 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -2px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   margin-right: 10px;
+	font-size: 40px;
+	float: right;
+}
+
+.lugares li {
+	list-style-type: none;
+	font-size: 40px;
+	text-align: center;
+	font-family: Impact, Charcoal, sans-serif;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	opacity: 0.9;
+   color: rgb(76, 76, 72);
+       opacity: 0.9;
+       font-style: italic;
+}
+
+#cancun:hover {
+	opacity: 0.5;
+}
+
+#barcelona:hover {
+	opacity: 0.5;
+}
+
+#buenosaires:hover {
+	opacity: 0.5;
+}
+
+#valparaiso:hover {
+	opacity: 0.5;
+}
+
+p {
+	color: white;
+	font-size: 150px;
+	text-align: center;
+	font: 24px/45px Helvetica, Sans-Serif; 
+	 letter-spacing: -1px; 
+	
+}
+
+.middle {
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	font: helvetica;
+	font-weight: 100;
+}
+
+
+div {
+	color: rgb(81, 85, 102);
+	font-size: 50px;
+	position:relative;
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: 20;
+
+
+}
+
+.navsass {
+	color: black;
+	background-color: rgb(165, 232, 223);
+	margin-bottom: 0px;
+	font-size: 30px;
+	font: bold 24px/45px Helvetica, Sans-Serif; 
+	letter-spacing: -2px;
+}
+
+
+.navsass1 {
+	float:left;
+	font-size: 20px;
+	font: bold 24px/45px Helvetica, Sans-Serif; 
+	letter-spacing: -2px; 
+
+}
+
+.gridsass {
+	position: relative
+	font-family: Impact, Charcoal, sans-serif;
+
+}
+
+h2 {
+	color: white; 
+	opacity: 0.9;
+   font: 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -2px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   margin-right: 10px;
+	font-size: 40px;
+	float: center;
+}
+
+.bkg_cancun {
+	background-image: url("http://www.raisingmiro.com/wp-content/uploads/2009/07/cancun0-1170x780.jpg");
+	height: 400px;
+	width: 100%;
+	align-content: center;
+	padding-top: 40px;
+	background-size: cover;
+}
+
+.img_cancun {
+	position: relative;
+	text-align: center;
+	padding-top: 40px;
+	background-color: rgb(173, 242, 159)
+
+}
+
+
