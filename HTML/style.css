@@ -1,0 +1,181 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  background-color: #333;
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: -15px;
+  text-align: left;
+  width: 100%;
+  z-index: 10000;
+  border-bottom: solid white 2px;
+  height: 91px;
+}
+
+.cotton {
+    background: url(https://image.shutterstock.com/z/stock-photo-view-on-the-sunset-and-airplane-wing-from-the-inside-519365497.jpg) no-repeat top center;
+    height: 550px;
+    position: relative;
+    top: 45px;
+}
+
+
+.nav {
+  list-style-type: none;
+  margin-left: -147px;
+  padding: 30px 0 10px 0;
+}
+
+ul.nav {
+  left: -10px;
+}
+
+.nav li {
+  display: inline;
+  color: #fff;
+  font-family: 'Raleway', 'arial', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 8px;
+  text-transform: uppercase;
+}
+
+.nav a { 
+  text-decoration: none;}
+
+
+
+.nav li.active:hover {
+    color: lightblue ;
+}
+
+
+
+.main {
+  position: relative;
+  top: 44px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 78px;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 6px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  top: -28px;
+}
+
+a.btn-main:hover {
+  color: lightblue;
+}
+
+.btn-de {
+  border: 1px solid #333;
+  color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;  
+  display: inline-block;     
+}
+
+.btn-de:hover{ background-color: #333;
+
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.supporting .col {
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.flags { 
+  align-items: vertical;
+  position: relative;
+  top: 6px;
+}
+
+.flags-dif { 
+  align-items: vertical;
+  position: relative;
+  top: 7px;
+}
+
+.developer{
+  position: relative;
+  top: 3px;
+}
+
+.supporting img {
+  height: 50px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2px 0;
+  text-align: right;
+}
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
